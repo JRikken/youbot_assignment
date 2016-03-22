@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find youbot_assignment)/launch/youbot_joint_state_publisher.launch"/>
+	<include file="$(find youbot_assignment)/launch/xtion_laser.launch"/>
+	<include file="$(find youbot_driver_ros_interface)/launch/youbot_driver.launch"/>
+	<!--<include file="$(find youbot_assignment)/launch/marker_detection.launch"/>-->
+</launch>

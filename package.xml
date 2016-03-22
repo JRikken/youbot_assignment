@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>youbot_assignment</name>
+  <version>0.0.1</version>
+  <description>The youbot_assignment package</description>
+
+  <maintainer email="kris@todo.todo">kris</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>pointcloud_to_laserscan</run_depend>
+  <run_depend>depthimage_to_laserscan</run_depend>
+
+  <export>
+
+  </export>
+</package>

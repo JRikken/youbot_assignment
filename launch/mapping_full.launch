@@ -1,0 +1,11 @@
+<launch>
+	<arg name="sim" default="false"/>
+	
+	<group unless="$(arg sim)">
+		<include file="$(find youbot_assignment)/launch/joystick.launch"/>
+	</group>
+	
+	<include file="$(find youbot_assignment)/launch/gmapping.launch"/>
+
+	<node pkg="rviz" type="rviz" output="screen" name="rviz" args="-d $(find youbot_assignment)/config/youbot_mapping.rviz" respawn="true"/>
+</launch>
